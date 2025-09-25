@@ -29,14 +29,14 @@ The rigor of an organization’s cybersecurity risk governance and management pr
 
 A Current Profile specifies the Core outcomes that an organization is currently achieving (or attempting to achieve) and characterizes how or to what extent each outcome is being achieved. 
 
-**Oscorp’s current profile is identified as Tier 1: Partial.**
+**Palworld’s current profile is identified as Tier 1: Partial.**
 |Tier           | Cybersecurity Risk Governance      | Cybersecurity Risk Management
 |---------------|------------------------------------|------------------------------
 |Tier 1: Partial | Application of the organizational cybersecurity risk strategy is managed in an ad hoc manner. Prioritization is ad hoc and not formally based on objectives or threat environment. | There is limited awareness of cybersecurity risks at the organizational level. The organization implements cybersecurity risk management on an irregular, case-by-case basis. The organization may not have processes that enable cybersecurity information to be shared within the organization. The organization is generally unaware of the cybersecurity risks associated with its suppliers and the products and services it acquires and uses. 
  
 A Target Profile specifies the desired outcomes that an organization has selected and prioritized for achieving its cybersecurity risk management objectives. It considers anticipated changes to the organization’s cybersecurity posture, such as new requirements, new technology adoption, and threat intelligence trends. 
 
-**Target profile for Oscorp: Tier 4:**
+**Target profile for Palworld: Tier 4:**
 
 |Tier           | Cybersecurity Risk Governance                                                    | Cybersecurity Risk Management
 |---------------|----------------------------------------------------------------------------------|------------------------------
@@ -47,16 +47,16 @@ At all times the question should be asked whether data is kept *Confidential*, i
 ![image](https://github.com/user-attachments/assets/5b8e35de-2c04-4de8-a82c-bb526a3f6f5c)
 ------
 <details close> 
-<summary> <h3> Oscorp's Current status report (Click here)</h3> </summary>
+<summary> <h3> Palworld's Current status report (Click here)</h3> </summary>
 
-**Current Oscorp cybersecurity team:**
+**Current Palworld cybersecurity team:**
 - Cyber security analyst: generalist, responds to cyber incidents as they come. Reports
-to Oscorp’s IT manager.
+to Palworld’s IT manager.
 - Network engineer: manages the firewalls. Reports to the Network Team Leader.
-- Cyber Security Consultant: your new role at Oscorp. You will initially report to the IT
+- Cyber Security Consultant: your new role at Palworld. You will initially report to the IT
 manager.
 
-**Oscorp Current Cyber Security Controls:**
+**Palworld Current Cyber Security Controls:**
 - Organisational governance:
   - CEO has a clear business strategy for the business. However, roles and
 responsibilities for cybersecurity haven’t been defined. They’re assigned to
@@ -66,7 +66,7 @@ the IT team. There is no cybersecurity strategy.
   - The IT team has a spreadsheet with serial numbers of laptops.
   - The spreadsheet includes the model of each machine and details about the
 warranty.
-  - Oscorp uses Microsoft Office365 and relies exclusively on Software-as-a-
+  - Palworld uses Microsoft Office365 and relies exclusively on Software-as-a-
 Service applications.
   - All data is in Microsoft Azure cloud
   - The IT team uses a Secure Operating Environment (SOE) to image all their
@@ -78,21 +78,21 @@ laptops with the latest Windows desktop version
   - The IT team takes regular backups. Backups get tested periodically
 
 - Vulnerability management:
-  - Oscorp have purchased Qualys vulnerability scanner.
+  - Palworld have purchased Qualys vulnerability scanner.
   - The IT team uses Qualys on an ad-hoc basis.
   - There is no formal vulnerability management program in place.
   - Large number of high and severe vulnerabilities reported by Qualys
 
 - Risk management:
-  - Oscorp has a risk team that performs financial risk activities.
-  - There is no technology or cyber risk process at Oscorp.
+  - Palworld has a risk team that performs financial risk activities.
+  - There is no technology or cyber risk process at Palworld.
 
 - Third Party Risk Management:
-  - Oscorp doesn’t perform any third-party risk management.
+  - Palworld doesn’t perform any third-party risk management.
   - Contracts are reviewed by procurement and finance, not IT.
 
 - Identity and Access Management:
-  - Oscorp uses Microsoft Active Directory to manage users and groups
+  - Palworld uses Microsoft Active Directory to manage users and groups
   - There is no privileged access management solution in place
   - Admin account password is shared with a few senior members of the IT team
   - Access to resources is granted upon request
@@ -110,14 +110,14 @@ cloud environment.
   - The network is segmented using VLANs.
 
 - Physical Security:
-  - Oscorp is a highly secure facility, with state-of-the-art CCTV cameras
+  - Palworld is a highly secure facility, with state-of-the-art CCTV cameras
 everywhere
-  - Oscorp takes physical very seriously
+  - Palworld takes physical very seriously
   - They do extensive vettng for all their employees
   - The have a 24/7 monitoring for their research labs and physical facilities
 
 - Data Security:
-  - Oscorp doesn’t have a DLP soluDon
+  - Palworld doesn’t have a DLP soluDon
   - All data resides in Microsoft Azure cloud and Microsoft Office 365
   - Key critical application is a SaaS service from Horizon Labs.
 
@@ -138,7 +138,7 @@ module includes basic instructions about cyber security.
   </details>
 ------
 
-Utilizing CSF Core functions as a guide, an assessment of Oscorp identified many deficiencies. Recommendations will be provided after each subcategory. 
+Utilizing CSF Core functions as a guide, an assessment of Palworld identified many deficiencies. Recommendations will be provided after each subcategory. 
 
 <!--IDENTIFY-->
 ![Screenshot 2024-10-28 134831](https://github.com/user-attachments/assets/9dc5bda1-08f0-4d90-b806-34621a19553a)
@@ -342,5 +342,5 @@ Coordinate restoration activities with internal and external parties, such as co
 
 ## Conclusion
 
-After investigating Oscorp's security posture, I analysed the findings and overlayed them with the NIST CSF 2.0. I utilized relevant security frameworks like MITRE ATT@CK, NIST 800-53, OWASP and others to compile a comprehensive roadmap towards a secure security infrastructure. 
+After investigating Palworld's security posture, I analysed the findings and overlayed them with the NIST CSF 2.0. I utilized relevant security frameworks like MITRE ATT@CK, NIST 800-53, OWASP and others to compile a comprehensive roadmap towards a secure security infrastructure. 
 
